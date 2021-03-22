@@ -13,14 +13,7 @@ describe("Rover class", function() {
     expect (function() { new Rover();}).toThrow(new Error('Position number is required.'));
   }); 
 
-//position is a number representing the rover's position.
-//Sets this.position to position
-//Sets this.mode to 'NORMAL'
-//Sets default value for generatorWatts to 110
 
-
-  
-  //7 tests here!
 
 
   it("response returned by receivesMessage contains name of message", function () {
